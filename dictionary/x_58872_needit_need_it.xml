@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Need It" max_length="40" name="x_58872_needit_need_it" type="collection">
+    <element audit="true" extends="task" label="Need It" max_length="40" name="x_58872_needit_need_it" sizeclass="8" type="collection">
         <element label="IoT Linked" max_length="40" name="needit_iot_boolean" type="boolean"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
